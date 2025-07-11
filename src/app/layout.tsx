@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "Snow Dashboard",
+    title: "Projects Dashboard",
     description: "A modern dashboard interface built with Next.js and shadcn/ui",
 };
 

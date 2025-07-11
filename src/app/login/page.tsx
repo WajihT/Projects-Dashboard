@@ -17,7 +17,7 @@ export default function LoginPage() {
             <header className="flex items-center justify-between p-6">
                 <div className="flex items-center gap-2">
                     <Snowflake className="h-6 w-6 text-primary" />
-                    <span className="font-semibold text-foreground">snowui</span>
+                    <span className="font-semibold text-foreground">Dashboard</span>
                 </div>
                 <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
                     <Link href="#" className="hover:text-foreground">Product</Link>
@@ -138,7 +138,7 @@ export default function LoginPage() {
 
                     {/* Footer */}
                     <div className="mt-8 text-center">
-                        <p className="text-xs text-muted-foreground">© 2025 SnowUI</p>
+                        <p className="text-xs text-muted-foreground">© 2025 Wajih Tarkhani</p>
                     </div>
                 </div>
             </div>

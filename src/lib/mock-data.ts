@@ -59,7 +59,7 @@ export const trafficWebsites = [
 export const projects = [
     {
         id: 1,
-        name: "SnowUI",
+        name: "Dashboard",
         dueDate: "Nov 10, 2025",
         totalTasks: 49,
         completedTasks: 36,

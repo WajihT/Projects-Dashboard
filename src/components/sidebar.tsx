@@ -50,7 +50,6 @@ const sidebarItems = [
             { name: "Documents", href: "/documents", icon: FileText, badge: null },
             { name: "Followers", href: "/followers", icon: Users, badge: null },
             { name: "Account", href: "/account", icon: Settings, badge: null },
-            { name: "Corporate", href: "/corporate", icon: Building, badge: null },
             { name: "Blog", href: "/blog", icon: FileText, badge: null },
             { name: "Social", href: "/social", icon: MessageCircle, badge: null },
         ]
@@ -117,7 +116,7 @@ export function Sidebar() {
                 <div className="flex items-center gap-3 p-3 rounded-lg bg-gradient-card">
                     <Snowflake className="h-5 w-5 text-primary" />
                     <div className="text-xs text-muted-foreground">
-                        © 2025 SnowUI
+                        © 2025 Wajih Tarkhani
                     </div>
                 </div>
             </div>
