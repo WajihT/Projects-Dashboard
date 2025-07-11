@@ -65,7 +65,7 @@ export function Sidebar() {
             <div className="flex h-14 items-center px-4 lg:h-[60px] lg:px-6">
                 <Link href="/" className="flex items-center gap-2 font-semibold">
                     <Snowflake className="h-6 w-6 text-primary" />
-                    <span className="text-foreground">ByeWind</span>
+                    <span className="text-foreground">Dashboard</span>
                 </Link>
             </div>
 
