@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 220 23% 11%;
+        --foreground: 210 40% 98%;
+        --card: 220 25% 14%;
+        --card-foreground: 210 40% 98%;
+        --popover: 220 25% 14%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 263 85% 70%;
+        --primary-foreground: 210 40% 98%;
+        --secondary: 220 23% 16%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 220 23% 16%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 220 23% 16%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 220 23% 20%;
+        --input: 220 23% 16%;
+        --ring: 263 85% 70%;
+        --radius: 0.5rem;
+        --chart-1: 263 85% 70%;
+        --chart-2: 200 100% 60%;
+        --chart-3: 150 100% 50%;
+        --chart-4: 40 100% 60%;
+        --chart-5: 300 100% 70%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground font-inter;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+@layer utilities {
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .gradient-bg {
+        background: linear-gradient(135deg,
+        hsl(220, 23%, 11%) 0%,
+        hsl(220, 25%, 14%) 50%,
+        hsl(220, 23%, 11%) 100%
+        );
+    }
+
+    .gradient-card {
+        background: linear-gradient(135deg,
+        hsl(220, 25%, 14%) 0%,
+        hsl(220, 23%, 16%) 100%
+        );
+    }
+
+    .gradient-button {
+        background: linear-gradient(135deg,
+        hsl(263, 85%, 70%) 0%,
+        hsl(280, 85%, 70%) 100%
+        );
+    }
+
+    .snow-glow {
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
+    }
+}
