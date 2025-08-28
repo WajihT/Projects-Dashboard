@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
     title: "Projects Dashboard",
     description: "A modern dashboard interface built with Next.js and shadcn/ui",
+    icons: {
+        icon: "/logo.ico",
+    },
 };
 
 export default function RootLayout({
